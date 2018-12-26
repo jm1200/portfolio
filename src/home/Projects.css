@@ -1,0 +1,22 @@
+#projects {
+  padding-top: 150px;
+  background-color: #fffced;
+}
+
+#projects > p {
+  margin-bottom: 100px;
+  font-size: 2em;
+  /* font-weight: bold; */
+}
+
+.projects-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 250px 250px;
+  grid-column-gap: 50px;
+}
+
+.project-img {
+  width: 300px;
+}

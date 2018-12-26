@@ -1,0 +1,21 @@
+#navbar {
+  height: 50px;
+  background-color: #bbcef0;
+  width: 100%;
+  position: fixed;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar > ul > li > a {
+  text-decoration: none;
+  margin: auto 50px;
+  color: #3660ac;
+}
